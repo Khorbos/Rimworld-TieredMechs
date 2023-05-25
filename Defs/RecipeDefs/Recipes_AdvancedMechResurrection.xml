@@ -37,6 +37,7 @@
         <li>Corpse_Mech_CleansweeperUltra</li>
         <li>Corpse_Mech_ParamedicUltra</li>
         <li>Corpse_Mech_FabricorUltra</li>
+		<li>Corpse_Mech_AnalystUltra</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

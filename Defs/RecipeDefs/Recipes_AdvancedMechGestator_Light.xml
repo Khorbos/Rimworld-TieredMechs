@@ -688,4 +688,61 @@
   </descriptionHyperlinks>
 </RecipeDef>
 
+  <!-- UltraAnalyst (modded version from https://steamcommunity.com/sharedfiles/filedetails/?id=2934760609) -->  
+  <RecipeDef ParentName="LightMechanoidRecipe">
+  <defName>AnalystUltra</defName>
+  <label>gestate ultratech analyst</label>
+  <description>Gestate an advanced ultratech mechanoid.</description>
+  <researchPrerequisite>UltraMechtech</researchPrerequisite>
+  <gestationCycles>2</gestationCycles>
+	  <ingredients Inherit="False">
+		  <li>
+			  <filter>
+				  <thingDefs>
+					  <li>NanostructuringChip</li>
+				  </thingDefs>
+			  </filter>
+			  <count>1</count>
+		  </li>
+		  <li>
+			  <filter>
+				  <thingDefs>
+					  <li>Steel</li>
+				  </thingDefs>
+			  </filter>
+			  <count>300</count>
+		  </li>
+		  <li>
+			  <filter>
+				  <thingDefs>
+					  <li>Plasteel</li>
+				  </thingDefs>
+			  </filter>
+			  <count>350</count>
+		  </li>
+		  <li>
+			  <filter>
+				  <thingDefs>
+					  <li>ComponentSpacer</li>
+				  </thingDefs>
+			  </filter>
+			  <count>4</count>
+		  </li>
+		  <li>
+			  <filter>
+				  <thingDefs>
+					  <li>SubcoreHigh</li>
+				  </thingDefs>
+			  </filter>
+			  <count>1</count>
+		  </li>
+	  </ingredients>
+	<products>
+	  <Mech_AnalystUltra>1</Mech_AnalystUltra>
+	</products>
+	<descriptionHyperlinks>
+	  <ThingDef>Mech_AnalystUltra</ThingDef>
+	</descriptionHyperlinks>
+  </RecipeDef>  
+
 </Defs>
