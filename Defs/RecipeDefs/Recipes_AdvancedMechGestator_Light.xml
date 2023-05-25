@@ -296,6 +296,55 @@
   </descriptionHyperlinks>
 </RecipeDef>
 
+  <!-- AdvancedAnalyst (modded version from https://steamcommunity.com/sharedfiles/filedetails/?id=2934760609) -->  
+  <RecipeDef ParentName="LightMechanoidRecipe">
+  <defName>AnalystPlus</defName>
+  <label>gestate advanced analyst</label>
+  <description>Gestate an advanced analyst mechanoid.</description>
+  <researchPrerequisite>HighMechtech</researchPrerequisite>
+  <gestationCycles>2</gestationCycles>
+  <ingredients Inherit="False">
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Steel</li>
+        </thingDefs>
+      </filter>
+      <count>100</count>
+    </li>
+    <li>
+    <filter>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </filter>
+    <count>70</count>
+  </li>
+  <li>
+    <filter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </filter>
+    <count>1</count>
+  </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>SubcoreHigh</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+	<products>
+	  <Mech_AnalystPlus>1</Mech_AnalystPlus>
+	</products>
+	<descriptionHyperlinks>
+	  <ThingDef>Mech_AnalystPlus</ThingDef>
+	</descriptionHyperlinks>
+  </RecipeDef>
+
   <!--               Ultra Tier               -->
   <!-- UltraLifter -->
   <RecipeDef ParentName="LightMechanoidRecipe">
